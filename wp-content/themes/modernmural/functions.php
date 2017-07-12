@@ -95,8 +95,8 @@ function html5blank_nav()
 function html5blank_header_scripts()
 {
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
-        wp_register_script('ahha-js', get_template_directory_uri() . '/assets/dist/js/production.js', array('jquery'), '1.0.0', true); // Custom scripts
-        wp_enqueue_script('ahha-js'); // Enqueue it!
+        wp_register_script('modernmuralcss', get_template_directory_uri() . '/assets/dist/js/production.js', array('jquery'), '1.0.0', true); // Custom scripts
+        wp_enqueue_script('modernmuralcss'); // Enqueue it!
     }
 }
 
@@ -112,7 +112,7 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('ahha-styles', get_template_directory_uri() . '/assets/dist/css/main.css', array(), '1.0', 'all');
+    wp_register_style('ahha-styles', get_template_directory_uri() . '/main.css', array(), '1.0', 'all');
     wp_enqueue_style('ahha-styles'); // Enqueue it!
 }
 

@@ -33,7 +33,7 @@
 		      <div class="card">
 		        <div class="card_content">
 		          <h6>Find us on Social Media</h6>
-		          <p>© 2017 The Modern Mural<br/>
+		          <p>© <?= date('Y'); ?> The Modern Mural<br/>
 		          &nbsp; &nbsp; Jennifer Jeffers, LLC<br/>
 		          &nbsp; &nbsp; All Rights Reserved.</p>
 		        </div>
