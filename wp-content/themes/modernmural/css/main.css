@@ -490,7 +490,15 @@ main {
   margin: auto;
 }
 
+/* arrow up */
+.arrowUp {
+  width: 80px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
 
+}
 
 
 

@@ -25,26 +25,26 @@
 
 		  <nav>
 		    <!-- Navigation -->
-		      <div id="social_media" class="topnav">
+		      <div id="social_media top" class="topnav">
 		        <ul class="social">
 		          <!-- Social Media NEEDS UPDATED TO THE MODERN MURAL -->
 		          <!-- Facebook -->
-		          <li class="social"><a href="https://www.facebook.com/SimpleStencils/?ref=br_rs">
+		          <li class="social"><a href="https://www.facebook.com/TheModernMural">
 		            <img src="wp-content\themes\modernmural\img\facebook.png" alt="facebook" title="Like us on Facebook">
 		          </a></li>
 
 		          <!-- Twitter -->
-		          <li class="social"><a href="https://twitter.com/SimpleStencils">
+		          <li class="social"><a href="https://twitter.com/TheModernMural">
 		            <img src="wp-content\themes\modernmural\img\twitter.png" alt="twitter" title="Follow us on Twitter">
 		          </a></li>
 
 		          <!-- Pinterest -->
-		          <li class="social"><a href="https://www.pinterest.com/simplestencils/">
+		          <li class="social"><a href="https://www.pinterest.com/TheModernMural/">
 		            <img src="wp-content\themes\modernmural\img\pinterest.png" alt="pinterest" title="Pin with us on Pinterest">
 		          </a></li>
 
 		          <!-- YouTube  -->
-		          <li class="social"><a href="https://www.youtube.com/user/simplestencils">
+		          <li class="social"><a href="https://www.youtube.com/user/TheModernMural">
 		            <img src="wp-content\themes\modernmural\img\youtube.png" alt="youtube" title="Watch our videos on Youtube">
 		          </a></li>
 
@@ -56,7 +56,7 @@
 		      </div>
 
 		      <!-- Contact us CTA -->
-		      <div class="contact_btn"><a href="#contact">
+		      <div class="contact_btn" class="smoothScroll"><a href="#contact">
 		        <h3>Contact Us</h3>
 		      </a></div>
 

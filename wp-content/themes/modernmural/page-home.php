@@ -8,40 +8,40 @@ get_header(); ?>
 		<div class="cards">
 			<div class="card">
 				<div class="card_image">
-					<a href="#"><img src="wp-content\themes\modernmural\img\category.png" alt=""></a>
+					<a href="#" class="smoothScroll"><img src="wp-content\themes\modernmural\img\category.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<a href="#"><h2>Shop by category</h2>
+					<a href="#" class="smoothScroll"><h2>Shop by category</h2>
 					<p>Find just what you need to perfect any room's design! From nature to city scenes, to whimsical designs for the young at heart!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<a href="#difference"><img src="wp-content\themes\modernmural\img\difference.png" alt=""></a>
+					<a href="#difference" class="smoothScroll"><img src="wp-content\themes\modernmural\img\difference.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<a href="#difference"><h2>The <img src="wp-content\themes\modernmural\img\favicon.png" id="modern_mural_difference"> Difference</h2>
+					<a href="#difference" class="smoothScroll"><h2>The <img src="wp-content\themes\modernmural\img\favicon.png" id="modern_mural_difference"> Difference</h2>
 					<p>Our wall murals are made with water-based latex ink, making them a healthier, more environmentally friendly option for your space!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<a href="#works"><img src="wp-content\themes\modernmural\img\works.png" alt=""></a>
+					<a href="#works" class="smoothScroll"><img src="wp-content\themes\modernmural\img\works.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<a href="#works"><h2>How it works</h2>
+					<a href="#works" class="smoothScroll"><h2>How it works</h2>
 					<p>All the tips and how-to's to make installation of our wall murals a simple yet stunning success in your home that you'll be proud of!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<a href="#"><img src="wp-content\themes\modernmural\img\blog.png" alt=""></a>
+					<a href="#" class="smoothScroll"><img src="wp-content\themes\modernmural\img\blog.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<a href="#"><h2>Blog</h2>
+					<a href="#" class="smoothScroll"><h2>Blog</h2>
 					<p>We are just as excited about our wall murals as you are, and we love to talk about them! Find out what drives our passion, and what we love!</p></a>
 				</div>
 			</div>
@@ -49,6 +49,13 @@ get_header(); ?>
 	</main>
 
 	<div class="border"> <!--this is needed -->
+
+	<article>
+		<a href="#top">
+		<img src="wp-content\themes\modernmural\img\arrow.png" alt="arrow up" class="arrowUp">
+	</a>-->
+	</article>
+
 		<h1 class="sectionHeader" id="difference">The M<img src="wp-content\themes\modernmural\img\favicon.png" class="modern_mural_difference">dern Mural Difference</h1>
 
 	  <aside class="aboutAside">
@@ -60,10 +67,12 @@ get_header(); ?>
 	  </aside>
 
 	  <section class="aboutSection">
-	    <img src="wp-content\themes\modernmural\img\ecologo.png" class="aboutImg">
-	    <img src="wp-content\themes\modernmural\img\greenguard.png" class="aboutImg">
+
 	    <h2>Learn more about The Difference <br>in The Modern Mural products.</h2>
 	      <p>We use HP Latex Inks which provide not only durability and versatility, but also high-quality, odorless prints that reduce the environmental impact by using water-based inks. This innovation offers a healthier solution from the print shop all the way to your space at work or home.</p>
+				<p>We offer printing solutions from economical options to premium versions with smooth and linen finishes. We also offer traditional wallpaper and pre-pasted wallpaper murals. The Modern Mural can also provide you with a non-stick relocatable canvas that can be moved as often as necessary.</p>
+				<img src="wp-content\themes\modernmural\img\ecologo.png" class="aboutImg">
+				<img src="wp-content\themes\modernmural\img\greenguard.png" class="aboutImg">
 	  </section>
 	</div>
 

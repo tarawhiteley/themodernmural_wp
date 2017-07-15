@@ -54,7 +54,7 @@
 							</a></li>
 						</ul>
 					</div>
-					  
+
 				</div>
 		      </div>
 
@@ -64,8 +64,8 @@
 		</footer>
 
 		</div> <!-- end of div class page -->
-
-		<script src="js/main.js"></script>
+		<script src="wp-content\themes\modernmural\js\smoothscroll.js"></script>
+		<script src="wp-content\themes\modernmural\js\main.js"></script>
 
 	</body>
 </html>
