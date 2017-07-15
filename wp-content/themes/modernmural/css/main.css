@@ -276,7 +276,7 @@ main {
 
 @media all and (min-width: 1200px) {
   main {
-    margin-top: -20%;
+    margin-top: -15%;
   }
 }
 
@@ -384,19 +384,17 @@ main {
 }
 
 /* contact page about page */
-.contactAside {
-	width: 20%;
-	color: #006e99;
-	height: auto;
-	padding: 100px;
-	text-align: right;
-	clear: both;
-	float: left;
+
+.sectionHeader {
+  font-size: 3.8em;
+  text-align: center;
+  margin: 100px auto;
+  color: #2bb672;
 }
 
 .contactAside h1, .aboutSection h1 {
 	font-size: 3.4em;
-	margin-top: 150px;
+
 }
 
 .contactAside p, .aboutAside p, .aboutSection p {
@@ -409,12 +407,52 @@ main {
 	font-size: 1em;
 }
 
+.aboutAside img {
+  width: 200px;
+}
+
+.aboutAside img, .aboutSection img {
+  margin-bottom: 20px;
+}
+
+.aboutAside {
+	width: 35%;
+	height: auto;
+	padding: 0 10px 50px 105px;
+	text-align: right;
+	clear: both;
+	float: left;
+}
+
+.aboutSection {
+	width: 35%;
+	height: auto;
+	padding: 0 105px 50px 10px;
+	float: right;
+}
+
+.aboutImg {
+	height: 200px;
+	padding: 0 5px;
+	margin-top: 13px;
+}
+
+.contactAside {
+	width: 20%;
+	color: #006e99;
+	height: auto;
+	padding: 0 100px 50px 100px;
+	text-align: right;
+	clear: both;
+	float: left;
+}
+
 .contactSection {
 	width: 80%;
 	height: auto;
-	padding: 100px;
+	padding: 0 100px 50px 100px;
 	color: #003333;
-	margin-top: 100px;
+
 }
 
 .contact {
@@ -423,11 +461,12 @@ main {
 	float: right;
 	width: 29%;
 	height: auto;
-	padding: 10px;
+	padding: 10px 10px 50px 10px;
 }
 
 .contactImg {
 	width:100px;
+  padding-bottom: 20px;
 }
 
 .contactSection p {
@@ -445,31 +484,6 @@ main {
 .contactAside a:hover, .aboutSection a:hover {
 	color: #2bb672;
 }
-
-.aboutAside {
-	width: 35%;
-	height: auto;
-	padding: 245px 10px 10px 105px;
-	text-align: right;
-	clear: both;
-	float: left;
-}
-
-.aboutSection {
-	width: 35%;
-	height: auto;
-	padding: 130px 105px 30px 10px;
-	margin-top: 100px;
-	float: right;
-}
-
-.aboutImg {
-	height: 200px;
-	padding: 0 5px;
-	margin-top: 13px;
-}
-
-
 
 /* footer styling */
 
@@ -514,17 +528,13 @@ li.social_ftr {
 }
 
 li.social_ftr a img {
-  width: 20%; /*was 50% */
+  width: 50%; /*was 50% */
   height: auto;
   margin: 1%;
   padding: 10% 5%;
 }
 
-footer img {
-  width: 23%;
-  text-align: center;
-  margin: auto;
-}
+
 
 #copyright_info {
   text-align: center;
