@@ -14,8 +14,21 @@ black: #000;
 
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 compatibility */
+article, article, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display:block;
+}
+
 body {
 	background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 @font-face {
@@ -31,12 +44,18 @@ body {
 h1, h2, h3 {
   font-family: "champagne";
   text-transform: uppercase;
+  margin-bottom: 1%;
 }
 
 h6, p {
   font-family: "segoe";
   font-size: 1em;
   color: #ffffff;
+  margin-bottom: 2%;
+}
+
+h6 {
+  border-bottom: 1% solid
 }
 
 body {
@@ -46,21 +65,27 @@ body {
 /* nav upper and lower styling */
 
 nav {
-  background: #003333;
-	position: fixed;
-	top: 0;
-	z-index: 8888;
-  border-bottom: 8px solid #a7d5bf;
-  padding: 0.5% 0;
+  display: none;
 }
 
-nav, .nav_lower {
-  width: 100vw;
-  height: auto;
-  display: flex;
+@media all and (min-width: 800px) {
+  nav {
+    background: #003333;
+  	position: fixed;
+  	top: 0;
+  	z-index: 9999;
+    border-bottom: 8px solid #a7d5bf;
+    padding: 1% 0 0.5% 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+  }
 }
 
 .nav_lower {
+  width: 100vw;
+  height: auto;
+  display: flex;
   background: #ffffff;
 }
 
@@ -112,7 +137,7 @@ a:visited {
   text-align: center;
   max-width: 50px;
   margin: 0 0.25%;
-  width: calc(97% / 5)
+  width: 8%;
 }
 
 .contact_btn {
@@ -144,12 +169,12 @@ a:visited {
 
 .sister p {
   display: inline;
-  vertical-align: top;
-  font-size: 1em;
+  font-size: 0.7em;
+  vertical-align: super;
 }
 
 .sister img {
-  width: 35%;
+  width: 25%;
   padding-right: 8%;
 }
 
@@ -178,6 +203,10 @@ header img {
 
 #hero {
   border-bottom: 8px solid #a7d5bf;
+}
+
+#diy_cta {
+    margin-top: -30%;
 }
 
 .logo {
@@ -241,13 +270,21 @@ header img {
 /* main section styling */
 main {
   background-color: #003333;
-  margin-top: -20%;
-  padding-bottom: 5%;
+  padding: 7% 0;
+  margin-top: 20%;
+}
+
+@media all and (min-width: 1200px) {
+  main {
+    margin-top: -20%;
+  }
 }
 
 /* cards below lower nav */
-.cards {
-  padding: 25% 1% 1% 1%;
+@media all and (min-width: 800px) {
+  .cards {
+    padding: 20% 1% 1% 1%;
+  }
 }
 
 .cards, .cards_ftr {
@@ -275,9 +312,9 @@ main {
 }
 
 .card img {
-  width: 50%;
+  width: 30%;
   text-align: center;
-  margin: 5% 24%;
+  margin: 5% 35%;
 }
 
 .card:last-child {
@@ -292,7 +329,12 @@ main {
   text-align: center;
 }
 
-
+#modern_mural_difference{
+  width: 0.9em;
+  height: auto;
+  margin: 0;
+  vertical-align: text-top;
+}
 
 /* interior Navigation bar */
 
@@ -442,7 +484,7 @@ footer {
 
 footer h6 {
   font-size: 1.1em;
-  line-height: 0.8em;
+  line-height: 1.25em;
   padding:0;
 }
 
@@ -451,11 +493,41 @@ footer p {
 }
 
 footer a:link {
-	font-size: 0.7em;
+	font-size: 0.9em;
+  text-decoration: underline;
 }
 
 .cards_ftr {
   padding: 1%;
+}
+
+.social_ftr {
+  width: 75%;
+  height: auto;
+  padding: 1%;
+}
+
+li.social_ftr {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+}
+
+li.social_ftr a img {
+  width: 20%; /*was 50% */
+  height: auto;
+  margin: 1%;
+  padding: 10% 5%;
+}
+
+footer img {
+  width: 23%;
+  text-align: center;
+  margin: auto;
+}
+
+#copyright_info {
+  text-align: center;
 }
 
 /*

@@ -74,5 +74,5 @@
 		  <div class="logo"><img src="wp-content\themes\modernmural\img\signature.png" alt="logo" title="The Modern Mural"> </div>
 
 		  <!-- call to action -->
-		  <div class="create"><img src="wp-content\themes\modernmural\img\create.png" alt="create your own" title="Create your own design"> </div>
+		  <div class="create"><img src="wp-content\themes\modernmural\img\create.png" alt="create your own" title="Create your own design" id="diy_cta"> </div>
 		</header>
