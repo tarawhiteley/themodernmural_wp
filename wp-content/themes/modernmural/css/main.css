@@ -55,7 +55,7 @@ h6, p {
 }
 
 h6 {
-  border-bottom: 1% solid
+  border-bottom: 1% solid;
 }
 
 body {
@@ -104,7 +104,7 @@ li {
   width: 100%;
 }
 
-a{
+a {
   color: #fff;
   font-size: 1.4em;
   text-decoration: none;
@@ -116,7 +116,7 @@ a:hover {
 }
 
 a:visited {
-  color: #2bb672;
+  color: #ffffff;
 }
 
 .topnav {
@@ -154,11 +154,11 @@ a:visited {
   margin: 1.25% 35%;
 }
 
-.contact_btn h3:active {
-  background-color: #a7d5bf;
+.contact_btn h3:active, .contact_btn h3:visited {
+  background-color: #ffffff;
 }
 
-.contact_btn h3:visited {
+.contact_btn h3:hover {
   background-color: #2bb673;
 }
 
@@ -329,7 +329,7 @@ main {
   text-align: center;
 }
 
-#modern_mural_difference{
+#modern_mural_difference, .modern_mural_difference {
   width: 0.9em;
   height: auto;
   margin: 0;
@@ -394,16 +394,15 @@ main {
 
 .contactAside h1, .aboutSection h1 {
 	font-size: 3.4em;
-
 }
 
 .contactAside p, .aboutAside p, .aboutSection p {
-	color: #006e99;
+	color: #003333;
 	font-size: 1.2em;
 }
 
-.aboutAside a, .aboutAside a:hover {
-	color: #006e99;
+.aboutAside a, .worksSection a {
+	color: #003333;
 	font-size: 1em;
 }
 
@@ -469,21 +468,31 @@ main {
   padding-bottom: 20px;
 }
 
-.contactSection p {
+.contactSection p, .worksSection p {
 	color: #003333;
 	padding-top: 10px;
 	font-size: 1.2em;
 }
 
-.contactSection a:link, .aboutSection a:link {
-	color: #003333;
+.contactSection a:link, .aboutSection a:link, .contactSection a:visited, .aboutSection a:visited {
+	color: #27aae1;
 	padding-top: 10px;
 	font-size: 1em;
 }
 
-.contactAside a:hover, .aboutSection a:hover {
+.contactAside a:hover, .aboutSection a:hover, .worksSection a:hover, .aboutAside a:hover {
 	color: #2bb672;
 }
+
+/* how it works */
+.worksSection {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
 
 /* footer styling */
 
@@ -534,11 +543,10 @@ li.social_ftr a img {
   padding: 10% 5%;
 }
 
-
-
 #copyright_info {
   text-align: center;
 }
+
 
 /*
 COLORS
@@ -554,63 +562,4 @@ light blue: #b3cdd7
 white: #ffffff;
 black: #000;
 
-*/
-
-/*.cards_ftr {
-  display: flex;
-  width: 100%;
-  color: #ffffff;
-}
-
-.card_ftr {
-  flex-basis: 300px;
-  display: flex;
-  flex-direction: column;
-  float: none;
-  width: calc(100% / 4);
-  margin: 1% auto 0 auto;
-}*/
-
-
-
-/*------------------------------------*\
-    #GRID-SETTINGS COULDNT GET THIS TO WORK, JUST HAVE IT HERE FOR NOW - WILL DELETE LATER
-\*------------------------------------*/
-
-/*
-.page {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:
-    "social contact_btn contact_btn sister"
-    "header header header header"
-    "main1 main2 main3 main4"
-    "footer footer footer footer";
-  height: 100vh;
-}
-
-.social {
-  grid-area: social;
-}
-
-.contact_btn {
-  grid-area: contact_btn;
-}
-
-.sister {
-  grid-area: sister;
-}
-
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
 */

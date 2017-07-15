@@ -56,7 +56,7 @@
 		      </div>
 
 		      <!-- Contact us CTA -->
-		      <div class="contact_btn"><a href="contact.html">
+		      <div class="contact_btn"><a href="#contact">
 		        <h3>Contact Us</h3>
 		      </a></div>
 

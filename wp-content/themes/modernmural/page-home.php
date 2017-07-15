@@ -4,54 +4,52 @@ Template Name: Home
 */
 get_header(); ?>
 
-<?php get_header(); ?>
-
 	<main role="main">
 		<div class="cards">
 			<div class="card">
 				<div class="card_image">
-					<img src="wp-content\themes\modernmural\img\category.png" alt="" />
+					<a href="#"><img src="wp-content\themes\modernmural\img\category.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<h2>Shop by category</h2>
-					<p>Find just what you need to perfect any room's design! From nature to city scenes, to whimsical designs for the young at heart!</p>
+					<a href="#"><h2>Shop by category</h2>
+					<p>Find just what you need to perfect any room's design! From nature to city scenes, to whimsical designs for the young at heart!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<img src="wp-content\themes\modernmural\img\difference.png" alt="" />
+					<a href="#difference"><img src="wp-content\themes\modernmural\img\difference.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<h2>The <img src="wp-content\themes\modernmural\img\favicon.png" id="modern_mural_difference"> Difference</h2>
-					<p>Our wall murals are made with water-based latex ink, making them a healthier, more environmentally friendly option for your space!</p>
+					<a href="#difference"><h2>The <img src="wp-content\themes\modernmural\img\favicon.png" id="modern_mural_difference"> Difference</h2>
+					<p>Our wall murals are made with water-based latex ink, making them a healthier, more environmentally friendly option for your space!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<img src="wp-content\themes\modernmural\img\works.png" alt="" />
+					<a href="#works"><img src="wp-content\themes\modernmural\img\works.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<h2>How it works</h2>
-					<p>All the tips and how-to's to make installation of our wall murals a simple yet stunning success in your home that you'll be proud of!</p>
+					<a href="#works"><h2>How it works</h2>
+					<p>All the tips and how-to's to make installation of our wall murals a simple yet stunning success in your home that you'll be proud of!</p></a>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card_image">
-					<img src="wp-content\themes\modernmural\img\blog.png" alt="" />
+					<a href="#"><img src="wp-content\themes\modernmural\img\blog.png" alt=""></a>
 				</div>
 				<div class="card_content">
-					<h2>Blog</h2>
-					<p>We are just as excited about our wall murals as you are, and we love to talk about them! Find out what drives our passion, and what we love!</p>
+					<a href="#"><h2>Blog</h2>
+					<p>We are just as excited about our wall murals as you are, and we love to talk about them! Find out what drives our passion, and what we love!</p></a>
 				</div>
 			</div>
 		</div>
 	</main>
 
 	<div class="border"> <!--this is needed -->
-		<h1 class="sectionHeader">The Modern Mural <img src="wp-content\themes\modernmural\img\favicon.png" id="modern_mural_difference"> Difference</h1>
+		<h1 class="sectionHeader" id="difference">The M<img src="wp-content\themes\modernmural\img\favicon.png" class="modern_mural_difference">dern Mural Difference</h1>
 
 	  <aside class="aboutAside">
 
@@ -64,16 +62,23 @@ get_header(); ?>
 	  <section class="aboutSection">
 	    <img src="wp-content\themes\modernmural\img\ecologo.png" class="aboutImg">
 	    <img src="wp-content\themes\modernmural\img\greenguard.png" class="aboutImg">
-	    <h2><a href="#">Learn more about The Difference <br>in The Modern Mural products.</a></h2>
+	    <h2>Learn more about The Difference <br>in The Modern Mural products.</h2>
 	      <p>We use HP Latex Inks which provide not only durability and versatility, but also high-quality, odorless prints that reduce the environmental impact by using water-based inks. This innovation offers a healthier solution from the print shop all the way to your space at work or home.</p>
 	  </section>
-
 	</div>
 
-	<div class="border"> <!--trying to get lower border to work -->
+		<div class="border">
+			<section class="worksSection">
+				<h1 class="sectionHeader" id="works">How it works</h1>
+				<p>Our eco-friendly products are as easy to install as they are good for the environment.  Just clean the surface where it will be installed, line up your mural with the surface, peel the backing just enough to expose about an inch of the adhesive, and gently press the mural to the surface - making sure that it is straight.  Continue to slowly and evenly peel back the liner a few inches at a time and smooth the mural onto the surface with the provided smoothing tool.  Once you finish adhering the mural to the surface, stand back and enjoy your modern mural.</p>
+				<p>For complete installation instructions, <a href="#">click here to download our comprehensive guide.</a></p>
+			</section>
+		</div>
 
-		<h1 class="sectionHeader">Contact Us</h1>
-		
+	<div class="border">
+
+		<h1 class="sectionHeader" id="contact">Contact Us</h1>
+
 	  <aside class="contactAside">
 	    <h1>We're here to help!</h1>
 	      <p>By far the easiest way to contact us when we are online is to use the "Live Help" option at the top of our support pages. In most cases we will be able to answer your question on the spot. In the unlikely event we can't, we'll respond by email as soon as we have an answer.</p>
@@ -108,7 +113,6 @@ get_header(); ?>
 	          <p>International: Dial your international access code followed by 1-352-299-3538</p>
 	    </article>
 	  </section>
-
 	</div>
 
 <?php get_footer(); ?>
