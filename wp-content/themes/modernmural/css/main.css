@@ -287,6 +287,12 @@ main {
   }
 }
 
+@media all and (min-width: 1000px) {
+  .cards {
+    padding: 10% 1% 1% 1%;
+  }
+}
+
 .cards, .cards_ftr {
   /*display: flex;*/
   width: 100vw;
@@ -486,6 +492,18 @@ main {
 
 /* how it works */
 .worksSection {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.worksSection img {
+  width: 100%;
+  margin-bottom: 70px;
+  border-bottom: 8px solid #a7d5bf;
+}
+
+.worksSection h1, .worksSection p {
   width: 50%;
   margin: auto;
 }

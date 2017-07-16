@@ -78,6 +78,7 @@ get_header(); ?>
 
 		<div class="border">
 			<section class="worksSection">
+				<img src="wp-content\themes\modernmural\img\office_mockup.jpg" alt="office mural" title="Office space inspiration">
 				<h1 class="sectionHeader" id="works">How it works</h1>
 				<p>Our eco-friendly products are as easy to install as they are good for the environment.  Just clean the surface where it will be installed, line up your mural with the surface, peel the backing just enough to expose about an inch of the adhesive, and gently press the mural to the surface - making sure that it is straight.  Continue to slowly and evenly peel back the liner a few inches at a time and smooth the mural onto the surface with the provided smoothing tool.  Once you finish adhering the mural to the surface, stand back and enjoy your modern mural.</p>
 				<p>For complete installation instructions, <a href="#">click here to download our comprehensive guide.</a></p>
