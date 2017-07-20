@@ -53,7 +53,7 @@ get_header(); ?>
 	<article>
 		<a href="#top">
 		<img src="wp-content\themes\modernmural\img\arrow.png" alt="arrow up" class="arrowUp">
-	</a>-->
+	</a>
 	</article>
 
 		<h1 class="sectionHeader" id="difference">The M<img src="wp-content\themes\modernmural\img\favicon.png" class="modern_mural_difference">dern Mural Difference</h1>

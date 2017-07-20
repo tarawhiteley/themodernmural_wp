@@ -18,24 +18,38 @@
  * @package WordPress
  */
 
- // ** MySQL settings - You can get this info from your web host ** //
- /** The name of the database for WordPress */
- define('DB_NAME', 'modernmural_wp');
-
- /** MySQL database username */
- define('DB_USER', 'root');
-
- /** MySQL database password */
- define('DB_PASSWORD', 'root');
-
- /** MySQL hostname */
- define('DB_HOST', 'localhost');
-
- /** Database Charset to use in creating database tables. utf8mb4 */
- define('DB_CHARSET', 'utf8');
-
+ // Include local configuration
+ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
+ 	include(dirname(__FILE__) . '/local-config.php');
+ }
+ // Global DB config
+ if (!defined('DB_NAME')) {
+ 	define('DB_NAME', 'themodernmural_wp');
+ }
+ if (!defined('DB_USER')) {
+ 	define('DB_USER', 'themodernmural');
+ }
+ if (!defined('DB_PASSWORD')) {
+ 	define('DB_PASSWORD', 'UQ%_&*&B[%yR');
+ }
+ if (!defined('DB_HOST')) {
+ 	define('DB_HOST', 'localhost');
+ }
+ /** Database Charset to use in creating database tables. */
+ if (!defined('DB_CHARSET')) {
+ 	define('DB_CHARSET', 'utf8');
+ }
  /** The Database Collate type. Don't change this if in doubt. */
- define('DB_COLLATE', '');
+ if (!defined('DB_COLLATE')) {
+ 	define('DB_COLLATE', '');
+ }
+
+// // on tarawhiteley.com
+// define('DB_NAME', 'tarawhiteley.com/modernmural_wp');
+// define('DB_USER', 'tarawhiteley');
+// define('DB_PASSWORD', 'Whiteley13');
+// define('DB_HOST', 'localhost' );
+// $table_prefix  = 'wp_';
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -77,7 +91,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
