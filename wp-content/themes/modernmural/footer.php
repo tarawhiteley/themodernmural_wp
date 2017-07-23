@@ -38,19 +38,19 @@
 						<ul class="social_ftr">
 						<!-- Facebook -->
 							<li class="social_ftr"><a href="https://www.facebook.com/TheModernMural">
-								<img src="wp-content\themes\modernmural\img\facebook.png" alt="facebook" title="Like us on Facebook">
+								<img src="wp-content/themes/modernmural/img/facebook.png" alt="facebook" title="Like us on Facebook">
 							</a></li>
 						<!-- Twitter -->
 							<li class="social_ftr"><a href="https://twitter.com/TheModernMural">
-								<img src="wp-content\themes\modernmural\img\twitter.png" alt="twitter" title="Follow us on Twitter">
+								<img src="wp-content/themes/modernmural/img/twitter.png" alt="twitter" title="Follow us on Twitter">
 							</a></li>
 						<!-- Pinterest -->
 							<li class="social_ftr"><a href="https://www.pinterest.com/TheModernMural">
-								<img src="wp-content\themes\modernmural\img\pinterest.png" alt="pinterest" title="Pin with us on Pinterest">
+								<img src="wp-content/themes/modernmural/img/pinterest.png" alt="pinterest" title="Pin with us on Pinterest">
 							</a></li>
 						<!-- YouTube  -->
 							<li class="social_ftr"><a href="https://www.youtube.com/user/TheModernMural">
-								<img src="wp-content\themes\modernmural\img\youtube.png" alt="youtube" title="Watch our videos on Youtube">
+								<img src="wp-content/themes/modernmural/img/youtube.png" alt="youtube" title="Watch our videos on Youtube">
 							</a></li>
 						</ul>
 					</div>
@@ -64,8 +64,8 @@
 		</footer>
 
 		</div> <!-- end of div class page -->
-		<script src="wp-content\themes\modernmural\js\smoothscroll.js"></script>
-		<script src="wp-content\themes\modernmural\js\main.js"></script>
+		<script src="wp-content/themes/modernmural/js/smoothscroll.js"></script>
+		<script src="wp-content/themes/modernmural/js/main.js"></script>
 
 	</body>
 </html>

@@ -14,7 +14,7 @@
 		<meta name="description" content="">
 
 		<link rel="stylesheet" href="css/vendor/normalize.min.css">
-		<link rel="stylesheet" href="wp-content\themes\modernmural\css\main.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="wp-content/themes/modernmural/css/main.css" type="text/css" media="screen, projection" />
 
 		<?php wp_head(); ?>
 
@@ -30,27 +30,27 @@
 		          <!-- Social Media NEEDS UPDATED TO THE MODERN MURAL -->
 		          <!-- Facebook -->
 		          <li class="social"><a href="https://www.facebook.com/TheModernMural">
-		            <img src="wp-content\themes\modernmural\img\facebook.png" alt="facebook" title="Like us on Facebook">
+		            <img src="wp-content/themes/modernmural/img/facebook.png" alt="facebook" title="Like us on Facebook">
 		          </a></li>
 
 		          <!-- Twitter -->
 		          <li class="social"><a href="https://twitter.com/TheModernMural">
-		            <img src="wp-content\themes\modernmural\img\twitter.png" alt="twitter" title="Follow us on Twitter">
+		            <img src="wp-content/themes/modernmural/img/twitter.png" alt="twitter" title="Follow us on Twitter">
 		          </a></li>
 
 		          <!-- Pinterest -->
 		          <li class="social"><a href="https://www.pinterest.com/TheModernMural/">
-		            <img src="wp-content\themes\modernmural\img\pinterest.png" alt="pinterest" title="Pin with us on Pinterest">
+		            <img src="wp-content/themes/modernmural/img/pinterest.png" alt="pinterest" title="Pin with us on Pinterest">
 		          </a></li>
 
 		          <!-- YouTube  -->
 		          <li class="social"><a href="https://www.youtube.com/user/TheModernMural">
-		            <img src="wp-content\themes\modernmural\img\youtube.png" alt="youtube" title="Watch our videos on Youtube">
+		            <img src="wp-content/themes/modernmural/img/youtube.png" alt="youtube" title="Watch our videos on Youtube">
 		          </a></li>
 
 		          <!-- Mail -->
 		          <li class="social"><a href="mailto:TheModernMural@gmail.com">
-		            <img src="wp-content\themes\modernmural\img\emailicon.png" alt="email" title="Email us about your mural">
+		            <img src="wp-content/themes/modernmural/img/emailicon.png" alt="email" title="Email us about your mural">
 		          </a></li>
 		        </ul>
 		      </div>
@@ -62,17 +62,17 @@
 
 		      <div class="sister topnav"><a href="https://www.thesimplestencil.com">
 		        <p>Visit our sister site</p>
-		        <img src="wp-content\themes\modernmural\img\simplestencil.png" alt="sister site" title="Visit our Sister Site, The Simple Stencil">
+		        <img src="wp-content/themes/modernmural/img/simplestencil.png" alt="sister site" title="Visit our Sister Site, The Simple Stencil">
 		      </a></div>
 
 		  </nav>
 
 		<header>
-		  <img src="wp-content\themes\modernmural\img\header_mural.png" alt="mural and desk" title="Bring design to your walls with our murals!" id="hero">
+		  <img src="wp-content/themes/modernmural/img/header_mural.png" alt="mural and desk" title="Bring design to your walls with our murals!" id="hero">
 
 		  <!-- logo -->
-		  <div class="logo"><img src="wp-content\themes\modernmural\img\signature.png" alt="logo" title="The Modern Mural"> </div>
+		  <div class="logo"><img src="wp-content/themes/modernmural/img/signature.png" alt="logo" title="The Modern Mural"> </div>
 
 		  <!-- call to action -->
-		  <div class="create"><img src="wp-content\themes\modernmural\img\create.png" alt="create your own" title="Create your own design" id="diy_cta"> </div>
+		  <div class="create"><img src="wp-content/themes/modernmural/img/create.png" alt="create your own" title="Create your own design" id="diy_cta"> </div>
 		</header>
